@@ -4,11 +4,10 @@ package duke;
 /**
  * This class encapsulates the information needed to execute
  * a command: the command's keyword and required arguments.
- * 
+ *
  * @author Siau Wee
  */
 public class Command {
-    
     /** The Keyword enum associated with this command. */
     private Keyword keyword;
 
@@ -17,7 +16,7 @@ public class Command {
 
     /**
      * Constructor to initialise a Command with a given Keyword and arguments.
-     * 
+     *
      * @param keyword
      * @param commandArgs
      */
@@ -28,7 +27,7 @@ public class Command {
 
     /**
      * Returns the Keyword associated with this Command.
-     * 
+     *
      * @return Keyword enum of this Command
      */
     public Keyword getKeyword() {
@@ -37,7 +36,7 @@ public class Command {
 
     /**
      * Returns the array of arguments associated with this Command.
-     * 
+     *
      * @return arguments of this Command
      */
     public String[] getCommandArgs() {

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Contains methods and attributes relevant to storing and operating
  * on tasks added by user.
- * 
+ *
  * @author Siau Wee
  */
 public class TaskList {
@@ -18,7 +18,7 @@ public class TaskList {
 
     /**
      * Constructor to initialise the TaskList with given arguments.
-     * 
+     *
      * @param parser The Parser object
      * @param storage The Storage object
      * @param ui The Ui object
@@ -28,19 +28,18 @@ public class TaskList {
         this.ui = ui;
         this.addedTasks = new ArrayList<>(100);
     }
-    
     /**
      * Returns the size of the task array.
-     * 
+     *
      * @return Number of tasks in the array
      */
     public int getSize() {
         return this.addedTasks.size();
     }
-    
+
     /**
      * Adds a given task to the task array.
-     * 
+     *
      * @param task The task to be added.
      */
     public void addTask(Task task) {
@@ -52,7 +51,7 @@ public class TaskList {
 
     /**
      * Removes the task at the specified index from the array.
-     * 
+     *
      * @param index The index at which the contained task is to be deleted.
      * @throws TaskNotFoundException If there is no task at the specified index.
      */
@@ -98,7 +97,7 @@ public class TaskList {
 
     /**
      * Marks the task at the specified index as done.
-     * 
+     *
      * @param index The index at which the contained task is to be marked done.
      * @throws TaskNotFoundException If there is no task at the specified index.
      */
@@ -114,7 +113,7 @@ public class TaskList {
 
     /**
      * Marks the task at the specified index as undone.
-     * 
+     *
      * @param index The index at which the contained task is to be marked undone.
      * @throws TaskNotFoundException If there is no task at the specified index.
      */

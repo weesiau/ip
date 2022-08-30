@@ -39,7 +39,7 @@ public class Task {
 
     /**
      * Checks if the current task's name contains a specified sequence of chars.
-     * 
+     *
      * @param chars The sequence of chars to match with task name
      * @return True if yes, False if no
      */

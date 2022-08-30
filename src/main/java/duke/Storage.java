@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 /**
  * Contains methods to write the current tasks state to disk.
- * 
+ *
  * @author Siau Wee
  */
 public class Storage {
@@ -40,8 +40,7 @@ public class Storage {
      */
     public File createSaveDirectory() throws IOException {
         try {
-            String path = this.getPresentWorkingDirectory() +
-                    File.separator + "data";
+            String path = this.getPresentWorkingDirectory() + File.separator + "data";
             File dir = new File(path);
             if (!dir.exists()) {
                 dir.mkdirs();
@@ -53,7 +52,6 @@ public class Storage {
             throw e;
         }
     }
-    
     /**
      * Saves the current task array to the output file.
      * @param tasks Current array of tasks

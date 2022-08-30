@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Main object to be created to initialise the chatbot program.
- * 
+ *
  * @author Siau Wee
  */
 public class Duke {
@@ -30,7 +30,7 @@ public class Duke {
 
     /**
      * Calls the relevant method based on the Command passed as argument.
-     * 
+     *
      * @param command The Command to be executed.
      * @throws DukeException If there is an invalid command keyword or arguments.
      */
@@ -39,6 +39,7 @@ public class Duke {
         case BYE:
             System.out.println("Come again soon!");
             System.exit(0);
+            break;
         case LIST:
             this.taskList.listTask();
             break;
@@ -68,6 +69,7 @@ public class Duke {
         case FIND:
             String chars = command.getCommandArgs()[1];
             this.taskList.findTask(chars);
+            break;
         default:
             return;
         }

@@ -19,7 +19,7 @@ public class Ui {
 
     /**
      * Prints a confirmation that the given task has been added to array.
-     * 
+     *
      * @param task The task that has been added.
      */
     public void taskAddedMessage(Task task) {
@@ -28,7 +28,7 @@ public class Ui {
 
     /**
      * Prints a confirmation that the given task has been deleted from array.
-     * 
+     *
      * @param task The task that has been deleted.
      */
     public void taskDeletedMessage(Task task) {
@@ -37,7 +37,7 @@ public class Ui {
 
     /**
      * Prints a confirmation that the given task has been marked done.
-     * 
+     *
      * @param task The task that has been marked done.
      */
     public void taskMarkedMessage(Task task) {
@@ -46,7 +46,7 @@ public class Ui {
 
     /**
      * Prints a confirmation that the given task has been marked undone.
-     * 
+     *
      * @param task The task that has been marked undone.
      */
     public void taskUnmarkedMessage(Task task) {
@@ -55,7 +55,7 @@ public class Ui {
 
     /**
      * Prints the size of the current task array.
-     * 
+     *
      * @param size The size of the current task array.
      */
     public void taskListSizeMessage(int size) {
